@@ -19,3 +19,10 @@ Route::get('/', function () {
 Route::get('/app', function(){
     return view('layouts.app');
 });
+
+Route::get('/nav', function(){
+    return view('layouts.sidebar');
+});
+Route::get('/model', function(){
+    return view('model');
+});
