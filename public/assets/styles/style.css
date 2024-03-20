@@ -1,0 +1,29 @@
+.container-fluid {
+    background-color: gainsboro;
+}
+
+.sidebar {
+    width: 100px;
+    overflow: auto;
+}
+.icon i {
+    font-size: 30px;
+}
+.navbar {
+    background: white;
+    height: 100px;
+}
+.search .form-control {
+    width: 400px;
+    text-align: center;
+    background-color: #f9faff;
+}
+
+.avatar img {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50%;
+}
+.text {
+    width: 70%;
+}

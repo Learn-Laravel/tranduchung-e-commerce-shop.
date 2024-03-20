@@ -1,6 +1,6 @@
 <?php
-
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,5 +24,7 @@ Route::get('/nav', function(){
     return view('layouts.sidebar');
 });
 Route::get('/model', function(){
-    return view('model');
+    return view('layouts.card');
 });
+
+Route::get('/card', [HomeController::class, 'index']);

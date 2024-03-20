@@ -1,5 +1,4 @@
 
-<body>
     <div class="sidebar">
         <img src="{{ asset('images/logo.png') }}" alt="đây là ảnh">
         <ul>
@@ -92,7 +91,5 @@
         </ul>
     </div>
 
-
-    <script src="{{ asset('assets/js/dashboard.js') }}"></script>
+<script src="{{ asset('assets/js/dashboard.js') }}"></script>
 </body>
-

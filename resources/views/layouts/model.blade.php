@@ -26,20 +26,7 @@
                     @include('layouts.navbar')
                 </div>
                 <div>
-                    @include('layouts.card')
-                </div>
-                <div class="chart row" id="chartjs">
-                    <div class="col-6">
-                        <canvas id="myChart" width="200" height="100"></canvas>
-                    </div>
-                    <div class="col-6 row">
-                        <div class="col-6">
-                            <canvas id="myDoughnutChart" width="600" height="600"></canvas>
-                        </div>
-                        <div class="col-6">
-                            <canvas id="doughnutChart" width="600" height="600"></canvas>
-                        </div>
-                    </div>
+                    @yield('card')
                 </div>
             </div>
 
